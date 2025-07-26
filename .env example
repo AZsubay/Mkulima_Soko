@@ -1,0 +1,11 @@
+# .env.example
+
+# Africa's Talking username
+AT_USERNAME=your_at_username_here
+
+# Africa's Talking API key
+AT_API_KEY=your_api_key_here
+
+# Flask app settings (optional)
+FLASK_ENV=development
+FLASK_DEBUG=1
