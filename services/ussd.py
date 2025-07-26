@@ -1,5 +1,6 @@
 ﻿from flask import request, make_response
-from db import get_prices  # your DB function to get prices
+from database import get_prices_by_crop_and_region
+
 
 
 def handle_ussd():
