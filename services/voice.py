@@ -1,4 +1,5 @@
 # app.py (add this section below your /ussd route)
+'''
 from flask import Flask, request, Response, render_template
 from services.ussd import handle_ussd
 from services.voice import handle_voice
@@ -25,3 +26,4 @@ def voice():
 
 if __name__ == "__main__":
     app.run(debug=True)
+'''
