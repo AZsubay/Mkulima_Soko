@@ -31,8 +31,8 @@ def ussd():
 
     response = handle_ussd(session_id, service_code, phone_number, text)
     return response
-
 '''
+
 @app.route("/voice", methods=["POST"])
 def voice():
     return handle_voice()
@@ -40,7 +40,7 @@ def voice():
 
 @app.route("/")
 def home():
-    return "Mkulima Soko USSD is Running!"
+    return " Mkulima Soko USSD is Running!"
 
 
 if __name__ == "__main__":
