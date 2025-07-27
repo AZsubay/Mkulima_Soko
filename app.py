@@ -1,7 +1,7 @@
 # app.py
 from flask import Flask, request
 from services.ussd import handle_ussd
-from services.voice import handle_voice
+#from services.voice import handle_voice
 import os
 from dotenv import load_dotenv
 import africastalking
@@ -32,11 +32,11 @@ def ussd():
     response = handle_ussd(session_id, service_code, phone_number, text)
     return response
 
-
+'''
 @app.route("/voice", methods=["POST"])
 def voice():
     return handle_voice()
-
+'''
 
 @app.route("/")
 def home():
